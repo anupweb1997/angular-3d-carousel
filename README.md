@@ -1,7 +1,7 @@
 # Anugular 3D Carousel
 
 ## Carousel View
-![alt text](https://github.com/[anupweb1997]/[angular-3d-carousel]/blob/[main]/assets/images/carousal-image.png?raw=true)
+![alt text](https://raw.githubusercontent.com/anupweb1997/angular-3d-carousel/main/src/assets/images/carousal-image.png)
 
 This project was generated with [Angular CLI](https://github.com/angular/angular-cli) version 16.1.4.
 
