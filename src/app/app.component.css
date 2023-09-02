@@ -1,0 +1,66 @@
+.cascade-slider_container {
+  position: relative;
+  width: 100%;
+  height: 350px;
+  margin: 0px auto;
+  top: 40px;
+}
+h2 {
+  text-align: center;
+  font-size: 30px;
+  margin:50px 0 0;
+  font-family: fantasy;
+}
+.cascade-slider_item {
+  position: absolute;
+  top: 0%;
+  left: 50%;
+  transform: translateY(3%) translateX(-50%) scale(0.3);
+  transition: all 1s ease;
+  opacity: 0;
+  z-index: -1;
+  text-align: center;
+}
+.cascade-slider_item.next {
+  left: 57%;
+  transform: translateY(5%) translateX(-135%) scale(.9);
+  opacity: 0.5;
+  z-index: 1;
+}
+.cascade-slider_item.prev {
+  left: 41%;
+  transform: translateY(5%) translateX(45%) scale(.9);
+  opacity: 0.5;
+  z-index: 1;
+}
+.cascade-slider_item.now {
+  top: 0;
+  left: 50%;
+  transform: translateY(0%) translateX(-50%) scale(1);
+  opacity: 1;
+  z-index: 5;
+}
+.cascade-slider_item img {
+  border-radius: 10px;
+  height: 350px;
+  object-fit: cover;
+  width: 400px;
+}
+.cascade-slider_arrow {
+  display: inline-block;
+  position: absolute;
+  bottom: 40%;
+  cursor: pointer;
+  z-index: 5;
+}
+.cascade-slider_arrow-left {
+  left: 14%;
+}
+.cascade-slider_arrow-right {
+  right: 14%;
+}
+.cascade-slider_arrow-left img,
+.cascade-slider_arrow-right img {
+  height: 40px;
+  left: 40px;
+}
